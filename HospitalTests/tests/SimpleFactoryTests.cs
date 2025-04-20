@@ -7,7 +7,8 @@ public class SimpleFactoryTests
     public void CreateGeneralPatientTest()
     {
         var patient = PatientFactory.CreatePatient("General");
-        Assert.AreEqual("John Doe", patient.Name);
+        Assert.That(patient.Name, Is.EqualTo("John Doe"));
+
     }
 
     [Test]

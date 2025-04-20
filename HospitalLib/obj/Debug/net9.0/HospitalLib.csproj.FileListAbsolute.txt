@@ -1,0 +1,12 @@
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\bin\Debug\net9.0\HospitalLib.deps.json
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\bin\Debug\net9.0\HospitalLib.dll
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\bin\Debug\net9.0\HospitalLib.pdb
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\HospitalLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\HospitalLib.AssemblyInfoInputs.cache
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\HospitalLib.AssemblyInfo.cs
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\HospitalLib.csproj.CoreCompileInputs.cache
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\HospitalLib.sourcelink.json
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\HospitalLib.dll
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\refint\HospitalLib.dll
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\HospitalLib.pdb
+C:\Users\Nelisiwe\Downloads\HospitalManagementSystem\HospitalLib\obj\Debug\net9.0\ref\HospitalLib.dll
