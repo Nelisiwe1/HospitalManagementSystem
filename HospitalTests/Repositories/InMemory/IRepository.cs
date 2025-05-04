@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace HospitalManagementSystem.Repositories
+namespace HospitalManagementSystem.Repositories.InMemory
 {
     public interface IRepository<T, ID>
     {

@@ -1,6 +1,6 @@
 using HospitalManagementSystem.Entities;
 
-namespace HospitalManagementSystem.Repositories
+namespace HospitalManagementSystem.Repositories.InMemory
 {
     public interface IPatientRepository : IRepository<Patient, string> {}
 }

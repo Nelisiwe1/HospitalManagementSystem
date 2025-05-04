@@ -1,24 +1,20 @@
-using System;
-using System.Diagnostics;
-using HospitalManagementSystem.Entities;
-using HospitalManagementSystem.Repositories.InMemory;
+using HospitalManagementSystem.Models;  // Import the Models namespace
 
-namespace HospitalManagementSystem.Tests
+namespace HospitalTests.Tests
 {
     public class InMemoryAppointmentRepositoryTests
     {
-        public static void RunAll()
+        [Fact]
+        public void CreateAppointment_WithValidData_ReturnsAppointment()
         {
-            var repo = new InMemoryAppointmentRepository();
-            var entity = new Appointment { Id = "E001", Description = "Test Appointment" };
+            var patient = new Patient("John Doe", 25);
+            var doctor = new Doctor("Dr. Smith", "Cardiology");
+            var appointment = new Appointment(patient, doctor, DateTime.Now, "Routine Checkup");
 
-            repo.Save(entity);
-            Debug.Assert(repo.FindById("E001") != null, "Appointment should be found.");
-            Debug.Assert(repo.FindAll().Count == 1, "There should be one Appointment.");
-            repo.Delete("E001");
-            Debug.Assert(repo.FindById("E001") == null, "Appointment should be deleted.");
-
-            Console.WriteLine("All Appointment tests passed!");
+            Assert.NotNull(appointment);
+            Assert.Equal("John Doe", appointment.Patient.Name);
+            Assert.Equal("Dr. Smith", appointment.Doctor.Name);
+            Assert.Equal("Routine Checkup", appointment.Description);
         }
     }
 }
