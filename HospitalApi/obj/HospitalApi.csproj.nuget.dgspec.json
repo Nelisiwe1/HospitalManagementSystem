@@ -292,7 +292,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.12.0, )"
+              "version": "[17.13.0, )"
             },
             "NUnit": {
               "target": "Package",
@@ -309,6 +309,16 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

@@ -503,11 +503,12 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "HospitalLib": "1.0.0",
-          "Microsoft.NET.Test.Sdk": "17.12.0",
+          "Microsoft.NET.Test.Sdk": "17.13.0",
           "NUnit": "4.2.2",
           "NUnit.Analyzers": "4.4.0",
           "NUnit3TestAdapter": "4.6.0",
-          "coverlet.collector": "6.0.2"
+          "coverlet.collector": "6.0.2",
+          "xunit": "2.9.3"
         },
         "compile": {
           "bin/placeholder/HospitalTests.dll": {}
