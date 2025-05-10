@@ -166,6 +166,16 @@ dotnet run --project HospitalRunner
 
 ---
 
+---
+
+## 🧪 Running Tests Locally
+
+To run all unit tests locally:
+
+```bash
+dotnet test
+
+
 ## 🧾 License
 
 This project is licensed under the MIT License.  
