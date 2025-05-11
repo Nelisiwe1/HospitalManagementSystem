@@ -185,6 +185,11 @@ This project uses GitHub Actions to automate testing and deployment.
 dotnet test
 
 
+![Branch Protection](./branch-protection.png)
+![Branch Protection](./screenshots/branchprotection1.png)
+![Branch Protection](./screenshots/branch-protection2.png)
+
+
 ## 🧾 License
 
 This project is licensed under the MIT License.  
