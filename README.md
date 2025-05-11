@@ -168,10 +168,17 @@ dotnet run --project HospitalRunner
 
 ---
 
-## 🧪 Running Tests Locally
+## 🔁 CI/CD Pipeline
 
-To run all unit tests locally:
-<!-- This is a test change to trigger CI -->
+This project uses GitHub Actions to automate testing and deployment.
+
+### ✅ Running Tests Locally
+1. Make sure you have .NET 8 SDK installed.
+2. Navigate to the project folder:
+   ```bash
+   dotnet restore
+   dotnet build
+   dotnet test
 
 
 ```bash
