@@ -184,6 +184,13 @@ This project uses GitHub Actions to automate testing and deployment.
 ```bash
 dotnet test
 
+## 📸 Branch Protection Settings
+
+![Branch Protection](/screenshots/branch-protection.png)
+![Branch Protection](./screenshots/branchprotection1.png)
+![Branch Protection](./screenshots/branch-protection2.png)
+
+
 
 
 
