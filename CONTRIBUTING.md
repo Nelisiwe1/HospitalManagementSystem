@@ -21,3 +21,12 @@ We welcome contributions of all kinds, including bug fixes, new features, and do
    ```bash
    git clone https://github.com/YOUR_USERNAME/HospitalManagementSystem.git
    cd HospitalManagementSystem
+
+3.**Restore dependencies:**
+dotnet restore
+4.**Build the project::**
+dotnet build
+5. **Run tests:**
+dotnet test
+
+
